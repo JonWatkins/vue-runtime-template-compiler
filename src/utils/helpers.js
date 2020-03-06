@@ -1,7 +1,20 @@
-export const isObject = (item) =>
-  typeof item === 'object' && !Array.isArray(item) && item !== null
+'use strict'
 
-export const merge = (target, source, deep = false) => {
+export function isObject(item) {
+  return typeof item === 'object' && !Array.isArray(item) && item !== null
+}
+
+export function mergeAll(objects, deep = false) {
+  let res = {}
+  for (const obj of objects) {
+    if (isObject(obj)) {
+      res = merge(res, obj, deep)
+    }
+  }
+  return res
+}
+
+export function merge(target, source, deep = false) {
   if (deep || !Object.assign) {
     const isDeep = (prop) =>
       isObject(source[prop]) &&

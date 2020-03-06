@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar render correctly 1`] = `
+<div class="col-md-3 col-xl-3 position-fixed sidebar">
+  <nav>
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <router-link-stub to="/" tag="a" event="click">Introduction</router-link-stub>
+      </li>
+      <li class="nav-item">
+        <router-link-stub to="/installation" tag="a" event="click">Installation</router-link-stub>
+      </li>
+      <li class="nav-item">
+        <router-link-stub to="/guide/getting-started" tag="a" event="click">Getting Started</router-link-stub>
+      </li>
+      <li class="nav-item">
+        <router-link-stub to="/guide/parent-context" tag="a" event="click">Parent Context</router-link-stub>
+      </li>
+      <li class="nav-item">
+        <router-link-stub to="/guide/methods" tag="a" event="click">Methods</router-link-stub>
+      </li>
+      <li class="nav-item">
+        <router-link-stub to="/guide/computed" tag="a" event="click">Computed</router-link-stub>
+      </li>
+      <li class="nav-item">
+        <router-link-stub to="/guide/props" tag="a" event="click">Props</router-link-stub>
+      </li>
+      <li class="nav-item">
+        <router-link-stub to="/guide/provide" tag="a" event="click">Provide</router-link-stub>
+      </li>
+      <li class="nav-item">
+        <router-link-stub to="/guide/filters" tag="a" event="click">Filters</router-link-stub>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;

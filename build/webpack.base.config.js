@@ -4,6 +4,7 @@ const webpack = require('webpack')
 const { resolve } = require('path')
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
 const TerserJSPlugin = require('terser-webpack-plugin')
+const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 const { VueLoaderPlugin } = require('vue-loader')
 const isProd = process.env.NODE_ENV === 'production'
 const { version } = require('../package.json')
@@ -29,12 +30,12 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        exclude: /node_modules/
+        exclude: /node_modules\/(?!(prismjs|vue-prism)\/).*/
       }
     ]
   },
   optimization: {
-    minimizer: [new TerserJSPlugin({})]
+    minimizer: [new TerserJSPlugin({}), new OptimizeCSSAssetsPlugin({})]
   },
   plugins: [
     new VueLoaderPlugin(),

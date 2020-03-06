@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container render correctly 1`] = `
+<div class="container-fluid">
+  <div class="row flex-xl-nowrap"></div>
+</div>
+`;

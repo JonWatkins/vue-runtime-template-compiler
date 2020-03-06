@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageNav render correctly 1`] = `
+<div class="page-nav">
+  <div class="page-nav--inner clearfix">
+    <div class="float-left"></div>
+    <div class="float-right"></div>
+  </div>
+</div>
+`;

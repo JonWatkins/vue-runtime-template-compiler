@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ParentContext render correctly 1`] = `
+<div class="page">
+  <h1 id="top" class="display-4 mb-3">
+    <router-link-stub to="/guide/parent-context#top" tag="a" event="click" class="header-anchor"><span class="header-anchor--hash">#</span>
+      Parent Context
+    </router-link-stub>
+  </h1>
+  <p>
+    The template you pass has access to the parent component scope. You can
+    access computed properties and methods as well from the template.
+  </p>
+  <p>
+    However if you have wrapped the <code>runtime-template-compiler</code> in
+    another component it may be necessary to set the
+    <code>parent</code> property on the compiler component, else you might end
+    up with the wrong scope being bound.
+  </p> <pre class="language-html mb-4"><code>&lt;template&gt;
+  &lt;wrapper-component&gt;
+    &lt;runtime-template-compiler :template="template" :parent="parentComponent" /&gt;
+  &lt;/wrapper-component&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+import { RuntimeTemplateCompiler } from 'vue-runtime-template-compiler'
+import WrapperComponent from './WrapperComponent.vue'
+
+export default {
+  components: {
+    RuntimeTemplateCompiler,
+    WrapperComponent
+  },
+  data: () =&gt; ({
+    parentComponent: this,
+    userName: 'Bob',
+    template: \`&lt;div&gt;Hello {{ userName }}!&lt;/div&gt;\`,
+  })
+}
+&lt;/script&gt;</code></pre>
+  <pagenav-stub></pagenav-stub>
+</div>
+`;

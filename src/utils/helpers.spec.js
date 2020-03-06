@@ -1,6 +1,6 @@
 'use strict'
 
-import { merge, isObject } from './helpers'
+import { merge, mergeAll, isObject } from './helpers'
 
 describe('utils/helpers.js', () => {
   describe('isObject', () => {
@@ -29,6 +29,28 @@ describe('utils/helpers.js', () => {
       const c = merge(a, b, true)
       expect(c.setup.env).toBe('development')
       expect(c.setup.test).toBe(true)
+    })
+  })
+
+  describe('mergeAll', () => {
+    it('should be able to merge multiple objects', () => {
+      const a = { env: 'development' }
+      const b = { test: true }
+      const c = { version: '1.0.0' }
+      const d = mergeAll([a, b, c])
+      expect(d.env).toBe('development')
+      expect(d.test).toBe(true)
+      expect(d.version).toBe('1.0.0')
+    })
+
+    it('should be able to deep merge multiple objects', () => {
+      const a = { setup: { env: 'development' } }
+      const b = { setup: { test: true } }
+      const c = { setup: { version: '1.0.0' } }
+      const d = mergeAll([a, b, c], true)
+      expect(d.setup.env).toBe('development')
+      expect(d.setup.test).toBe(true)
+      expect(d.setup.version).toBe('1.0.0')
     })
   })
 })

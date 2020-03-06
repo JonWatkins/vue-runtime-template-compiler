@@ -1,0 +1,170 @@
+<template>
+  <div class="page">
+    <h1 id="intro" class="display-4 mb-3">
+      <router-link to="/#intro" class="header-anchor">
+        <span class="header-anchor--hash">#</span>
+        Introduction
+      </router-link>
+    </h1>
+
+    <p class="lead">
+      A
+      <a
+        href="https://vuejs.org/"
+        target="_blank"
+        rel="nofollow"
+        class="external"
+        >Vue.js<i class="fas fa-external-link-alt"></i
+      ></a>
+      component for easy compiling and interpreting of HTML templates at
+      runtime.
+    </p>
+
+    <p class="mb-4">
+      <a
+        href="https://github.com/JonWatkins/vue-runtime-template-compiler/blob/master/LICENCE"
+        rel="nofollow"
+        class="mr-2"
+        target="_blank"
+      >
+        <img
+          alt="licence"
+          data-canonical-src="https://badgen.net/github/license/JonWatkins/vue-runtime-template-compiler"
+          style="max-width:100%;"
+          src="https://badgen.net/github/license/jonwatkins/vue-runtime-template-compiler"
+        />
+      </a>
+      <a
+        href="https://www.npmjs.com/package/vue-runtime-template-compiler"
+        rel="nofollow"
+        class="mr-2"
+        target="_blank"
+      >
+        <img
+          alt="npm"
+          data-canonical-src="https://img.shields.io/npm/v/vue-runtime-template-compiler.svg"
+          style="max-width:100%;"
+          src="https://camo.githubusercontent.com/f8da4ea7c4f1e189320be560ef7c3871141bcb96/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f7675652d72756e74696d652d74656d706c6174652d636f6d70696c65722e737667"
+        />
+      </a>
+      <a
+        href="https://www.npmjs.com/package/vue-runtime-template-compiler"
+        rel="nofollow"
+        class="mr-2"
+        target="_blank"
+      >
+        <img
+          alt="npm"
+          data-canonical-src="https://img.shields.io/npm/dm/vue-runtime-template-compiler.svg"
+          style="max-width:100%;"
+          src="https://camo.githubusercontent.com/ee1e27ee5f0b44b4b10e20500af04b9acc05f08e/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f646d2f7675652d72756e74696d652d74656d706c6174652d636f6d70696c65722e737667"
+        />
+      </a>
+      <a
+        href="https://travis-ci.org/JonWatkins/vue-runtime-template-compiler"
+        rel="nofollow"
+        class="mr-2"
+        target="_blank"
+      >
+        <img
+          alt="Build Status"
+          data-canonical-src="https://travis-ci.org/JonWatkins/vue-runtime-template-compiler.svg?branch=master"
+          style="max-width:100%;"
+          src="https://camo.githubusercontent.com/cb4fab9739b21dac6748ed5b7da17dcb58b36c61/68747470733a2f2f7472617669732d63692e6f72672f4a6f6e5761746b696e732f7675652d72756e74696d652d74656d706c6174652d636f6d70696c65722e7376673f6272616e63683d6d6173746572"
+        />
+      </a>
+      <a
+        href="https://coveralls.io/github/JonWatkins/vue-runtime-template-compiler?branch=master"
+        rel="nofollow"
+        class="mr-2"
+        target="_blank"
+      >
+        <img
+          data-canonical-src="https://coveralls.io/repos/github/JonWatkins/vue-runtime-template-compiler/badge.svg?branch=master"
+          src="https://coveralls.io/repos/github/JonWatkins/vue-runtime-template-compiler/badge.svg?branch=master"
+          alt="Coverage Status"
+          style="max-width:100%;"
+        />
+      </a>
+      <a
+        href="https://codeclimate.com/github/JonWatkins/vue-runtime-template-compiler"
+        rel="nofollow"
+        class="mr-2"
+        target="_blank"
+      >
+        <img
+          alt="Maintainability"
+          data-canonical-src="https://badgen.net/codeclimate/maintainability/JonWatkins/vue-runtime-template-compiler"
+          style="max-width:100%;"
+          src="https://badgen.net/codeclimate/maintainability/JonWatkins/vue-runtime-template-compiler"
+        />
+      </a>
+    </p>
+    <div class="alert alert-primary mb-4" role="alert">
+      An interactive demo of the compiler can be found over at
+      <a
+        href="https://codesandbox.io/embed/vue-runtime-template-compiler-51rld"
+        target="_blank"
+        class="external"
+        >CodeSandbox<i class="fas fa-external-link-alt"></i
+      ></a>
+    </div>
+    <p>
+      This is a simple library that makes use of the
+      <code>vue-template-compiler</code> to generate a component on the fly from
+      a HTML string, which solves the template binding issues that you get with
+      the <code>v-html</code> directive.
+    </p>
+    <p>
+      The <code>Vue Runtime Template Compiler</code> makes it easy to get a
+      template string either from a local variable or from a remote source, and
+      then compile and render it as a component using scope of the parent.
+    </p>
+    <p>
+      You do not need to use the use the <code>with-compiler</code> version of
+      <a
+        href="https://vuejs.org/"
+        target="_blank"
+        rel="nofollow"
+        class="external"
+        >Vue.js<i class="fas fa-external-link-alt"></i></a
+      >, as this bundles the <code>vue-template-compiler</code>. This is handy
+      as you might not want to use the runtime compiler in the whole
+      application. Using
+      <a
+        href="https://webpack.js.org/"
+        target="_blank"
+        rel="nofollow"
+        class="external"
+        >Webpack<i class="fas fa-external-link-alt"></i
+      ></a>
+      and code splitting you can ensure that the compiler is only fetched when
+      necessary.
+    </p>
+    <p>
+      Keep in mind that the template can only access the instance properties of
+      the component that is using it.
+    </p>
+
+    <PageNav>
+      <template v-slot:right>
+        <router-link to="/installation">
+          Installation
+          <i class="fas fa-arrow-right"></i>
+        </router-link>
+      </template>
+    </PageNav>
+  </div>
+</template>
+
+<script>
+import PageNav from '../components/PageNav.vue'
+
+export default {
+  name: 'Introduction',
+
+  components: {
+    PageNav
+  }
+}
+</script>

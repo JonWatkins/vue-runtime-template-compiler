@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App render correctly 1`] = `
+<div class="docs">
+  <header-stub></header-stub>
+  <container-stub>
+    <sidebar-stub></sidebar-stub>
+    <content-stub></content-stub>
+  </container-stub>
+</div>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header render correctly 1`] = `
+<header class="navbar navbar-expand navbar-light flex-column flex-md-row navbar sticky-top">
+  <router-link-stub to="/" tag="a" event="click" class="navbar-brand ml-1 mr-0 mr-md-2">
+    VueRuntimeTemplateCompiler
+  </router-link-stub>
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item mt-1">
+      <router-link-stub to="/guide/getting-started" tag="a" event="click">
+        Guide
+      </router-link-stub>
+    </li>
+    <li class="nav-item  mt-1 ml-3">
+      <router-link-stub to="/api-reference" tag="a" event="click">
+        API Reference
+      </router-link-stub>
+    </li>
+    <li class="nav-item  mt-1 ml-3">
+      <router-link-stub to="/sandbox" tag="a" event="click">
+        Sandbox
+      </router-link-stub>
+    </li>
+    <li class="nav-item ml-3"><a href="https://github.com/jonwatkins/vue-runtime-template-compiler" target="_blank" class="border-bottom-0 icon-hover"><i class="fab fa-github fa-2x"></i></a></li>
+    <li class="nav-item text-muted ml-3"><a href="https://www.npmjs.com/package/vue-runtime-template-compiler" target="_blank" class="border-bottom-0 icon-hover"><i class="fab fa-npm fa-2x"></i></a></li>
+  </ul>
+</header>
+`;

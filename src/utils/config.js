@@ -1,7 +1,11 @@
 'use strict'
 
 let config = {
-  defaultRuntimeTemplate: '<div></div>'
+  defaultRuntimeTemplate: '<div></div>',
+  defaultCompilerOptions: {
+    outputSourceRange: false,
+    whitespace: 'preserve'
+  }
 }
 
 export { config as default }

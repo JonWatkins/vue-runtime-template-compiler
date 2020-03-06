@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Computed render correctly 1`] = `
+<div class="page">
+  <h1 id="top" class="display-4 mb-3">
+    <router-link-stub to="/guide/computed#top" tag="a" event="click" class="header-anchor"><span class="header-anchor--hash">#</span>
+      Computed
+    </router-link-stub>
+  </h1>
+  <p>
+    Just like the <code>methods</code> the <code>computed</code> properties
+    are available in the <code>vue-runtime-template-compiler</code>. The same
+    as the other parent property you use them as if you are writing bindings
+    in the parent's compiled template.
+  </p> <pre class="language-html mb-4"><code>&lt;template&gt;
+  &lt;runtime-template-compiler :template="template" /&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+import { RuntimeTemplateCompiler } from 'vue-runtime-template-compiler'
+
+export default {
+  components: {
+    RuntimeTemplateCompiler
+  },
+  data: () =&gt; ({
+    userName: 'Bob',
+    template: \`&lt;div&gt;{{ greeting }}!&lt;/div&gt;\`,
+  }),
+  computed: {
+    greeting() {
+      return \`Hello my name is \${this.userName}\`
+    }
+  }
+}
+&lt;/script&gt;</code></pre>
+  <pagenav-stub></pagenav-stub>
+</div>
+`;

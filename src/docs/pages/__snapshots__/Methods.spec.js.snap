@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Methods render correctly 1`] = `
+<div class="page">
+  <h1 id="top" class="display-4 mb-3">
+    <router-link-stub to="/guide/methods#top" tag="a" event="click" class="header-anchor"><span class="header-anchor--hash">#</span>
+      Methods
+    </router-link-stub>
+  </h1>
+  <div class="alert alert-primary mb-4">
+    These will behave as if they have been called from within the parent
+    component.
+  </div>
+  <p>
+    As with the <code>data</code> object the methods are also available in the
+    <code>vue-runtime-template-compiler</code>. You just use them as if you
+    are writing bindings in the parent's compiled template.
+  </p> <pre class="language-html mb-4"><code>&lt;template&gt;
+  &lt;runtime-template-compiler :template="template" /&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+import { RuntimeTemplateCompiler } from 'vue-runtime-template-compiler'
+
+export default {
+  components: {
+    RuntimeTemplateCompiler
+  },
+  data: () =&gt; ({
+    userName: 'Bob',
+    template: \`&lt;div @click="logUser(userName)"&gt;Hello {{ userName }}!&lt;/div&gt;\`,
+  }),
+  methods: {
+    logUser(userName) {
+      console.log(\`Users name is: \${userName}\`)
+    }
+  }
+}
+&lt;/script&gt;</code></pre>
+  <pagenav-stub></pagenav-stub>
+</div>
+`;

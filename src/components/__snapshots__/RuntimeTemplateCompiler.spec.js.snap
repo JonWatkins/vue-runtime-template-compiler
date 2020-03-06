@@ -2,4 +2,4 @@
 
 exports[`components/RuntimeTemplateCompiler should be able to render a HTML string as a template 1`] = `<h1>Hello Bob</h1>`;
 
-exports[`components/RuntimeTemplateCompiler should render correctly 1`] = `<runtimecomponent-stub></runtimecomponent-stub>`;
+exports[`components/RuntimeTemplateCompiler should render correctly 1`] = `<anonymous-stub></anonymous-stub>`;

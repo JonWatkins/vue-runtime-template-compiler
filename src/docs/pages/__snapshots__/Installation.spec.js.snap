@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Installation render correctly 1`] = `
+<div class="page">
+  <h1 id="install" class="display-4 mb-3">
+    <router-link-stub to="/installation#install" tag="a" event="click" class="header-anchor"><span class="header-anchor--hash">#</span>
+      Installation
+    </router-link-stub>
+  </h1>
+  <h2 id="direct" class="mb-4 text-muted">
+    <router-link-stub to="/installation#direct" tag="a" event="click" class="header-anchor"><span class="header-anchor--hash">#</span>
+      Direct Download / CDN
+    </router-link-stub>
+  </h2>
+  <p><a href="https://unpkg.com/vue-runtime-template-compiler/dist/vue-runtime-template-compiler.umd.js" target="_blank" class="external">
+      https://unpkg.com/vue-runtime-template-compiler/dist/vue-runtime-template-compiler.umd.js
+      <i class="fas fa-external-link-alt"></i></a></p>
+  <p><a href="https://unpkg.com/" target="_blank" class="external">Unpkg.com<i class="fas fa-external-link-alt"></i></a>
+    provides npm-based CDN links. The above link will always point to the
+    latest release on npm. You can also use a specific version/tag via URLs
+    like <code>https://unpkg.com/vue-runtime-template-compiler@1.1.0/dist/vue-runtime-template-compiler.umd.js</code>.
+  </p>
+  <p>
+    Include <code>Vue Runtime Template Compiler</code> after
+    <a href="https://vuejs.org/" target="_blank" rel="nofollow" class="external">Vue.js<i class="fas fa-external-link-alt"></i></a>
+    and it will install itself automatically:
+  </p> <pre class="language-js mb-4"><code>&lt;script src="https://unpkg.com/vue@2.6.11/dist/vue.js"&gt;&lt;/script&gt;
+&lt;script src="https://unpkg.com/vue-runtime-template-compiler/dist/vue-runtime-template-compiler.umd.js"&gt;&lt;/script&gt;</code></pre>
+  <h2 id="npm" class="mb-4 text-muted">
+    <router-link-stub to="/installation#npm" tag="a" event="click" class="header-anchor"><span class="header-anchor--hash">#</span>
+      NPM
+    </router-link-stub>
+  </h2> <pre class="language-bash mb-4"><code>$ npm i vue-runtime-template-compiler</code></pre>
+  <h2 id="yarn" class="mb-4 text-muted">
+    <router-link-stub to="/installation#yarn" tag="a" event="click" class="header-anchor"><span class="header-anchor--hash">#</span>
+      Yarn
+    </router-link-stub>
+  </h2> <pre class="language-bash mb-4"><code>$ yarn add vue-runtime-template-compiler</code></pre>
+  <p>
+    When used with a module system, you must explicitly install the compiler
+    via <code>Vue.use()</code>:
+  </p> <pre class="language-js mb-4"><code>import Vue from "vue"
+import RuntimeTemplateCompiler from "vue-runtime-template-compiler"
+Vue.use(RuntimeTemplateCompiler)</code></pre>
+  <p>You don't need to do this when using global script tags.</p>
+  <pagenav-stub></pagenav-stub>
+</div>
+`;

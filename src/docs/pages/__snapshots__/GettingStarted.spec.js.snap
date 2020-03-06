@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GettingStarted render correctly 1`] = `
+<div class="page">
+  <h1 id="started" class="display-4 mb-3">
+    <router-link-stub to="/guide/getting-started#started" tag="a" event="click" class="header-anchor"><span class="header-anchor--hash">#</span>
+      Getting Started
+    </router-link-stub>
+  </h1>
+  <div class="alert alert-primary mb-4">
+    When using
+    <a href="https://webpack.js.org/" target="_blank" rel="nofollow" class="external">Webpack<i class="fas fa-external-link-alt"></i></a>
+    you can use code splitting so that you do not load the runtime compiler in
+    to your whole application.
+  </div>
+  <p>
+    To use the <code>Vue Runtime Template Compiler</code> plugin you just need
+    to import the <code>vue-runtime-template-compiler</code> component and
+    pass in the template that you want to use. You may either use it as a
+    plugin, or you can use the component directly. Either way you decide to
+    install it the usage of the component will be the same.
+  </p>
+  <h2 id="plugin" class="mb-4">
+    <router-link-stub to="/guide/getting-started#plugin" tag="a" event="click" class="header-anchor"><span class="header-anchor--hash">#</span>
+      Using the plugin
+    </router-link-stub>
+  </h2>
+  <p>
+    If you have installed the plugin using the <code>Vue.use()</code> method
+    then you can use the component like this:
+  </p> <pre class="language-html mb-4"><code>&lt;template&gt;
+  &lt;runtime-template-compiler :template="template" /&gt;
+&lt;/template&gt;
+&lt;script&gt;
+  export default {
+    data() {
+      return {
+        message: 'Hello from the template compiler',
+        template: \`
+          &lt;h1&gt;{{ message }}&lt;/h1&gt;
+        \`
+      }
+    }
+  }
+&lt;/script&gt;</code></pre>
+  <h2 id="component" class="mb-4">
+    <router-link-stub to="/guide/getting-started#component" tag="a" event="click" class="header-anchor"><span class="header-anchor--hash">#</span>
+      Using the component
+    </router-link-stub>
+  </h2>
+  <p>
+    Or if you choose to you can load the component directly. From this point
+    on we will assume you have installed the component with the
+    <code>Vue.use()</code> method.
+  </p> <pre class="language-html mb-4"><code>&lt;template&gt;
+  &lt;RuntimeTemplateCompiler :template="template" /&gt;
+&lt;/template&gt;
+&lt;script&gt;
+  import { RuntimeTemplateCompiler } from "vue-runtime-template-compiler"
+
+  export default {
+    components: {
+      RuntimeTemplateCompiler
+    },
+    data() {
+      return {
+        message: 'Hello from the template compiler',
+        template: \`
+          &lt;h1&gt;{{ message }}&lt;/h1&gt;
+        \`
+      }
+    }
+  }
+&lt;/script&gt;</code></pre>
+  <pagenav-stub></pagenav-stub>
+</div>
+`;
