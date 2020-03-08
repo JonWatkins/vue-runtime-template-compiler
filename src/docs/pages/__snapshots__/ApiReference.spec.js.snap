@@ -22,7 +22,8 @@ exports[`ApiReference render correctly 1`] = `
     bindings to work on the compiled template.
   </p>
   <h2 id="api-reference-props" class="mb-4 text-mmuted">
-    <router-link-stub to="/api-reference#api-reference-props" tag="a" event="click" class="header-anchor"><span class="header-anchor--hash">#</span> <code>&lt;runtime-template-compiler&gt;</code> Props
+    <router-link-stub to="/api-reference#api-reference-props" tag="a" event="click" class="header-anchor"><span class="header-anchor--hash">#</span>
+      Props
     </router-link-stub>
   </h2>
   <h3 id="api-reference-props-template" class="mb-4 text-muted">

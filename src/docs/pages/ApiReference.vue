@@ -49,7 +49,7 @@
         class="header-anchor"
       >
         <span class="header-anchor--hash">#</span>
-        <code>&lt;runtime-template-compiler&gt;</code> Props
+        Props
       </router-link>
     </h2>
 

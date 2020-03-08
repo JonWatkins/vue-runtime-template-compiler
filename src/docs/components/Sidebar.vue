@@ -1,5 +1,7 @@
 <template>
-  <div class="col-md-3 col-xl-3 position-fixed sidebar">
+  <div
+    class="col-md-3 col-xl-3 position-fixed sidebar d-none d-sm-none d-md-block"
+  >
     <nav>
       <ul class="nav flex-column">
         <li class="nav-item">
