@@ -38,6 +38,7 @@
     "template"
   ],
   "dependencies": {
+    "fg-loadcss": "^2.1.0",
     "vue-template-compiler": "^2.6.11"
   },
   "devDependencies": {
