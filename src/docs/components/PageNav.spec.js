@@ -1,14 +1,11 @@
-import { shallowMount } from '@vue/test-utils'
 import PageNav from './PageNav.vue'
-const { localVueInst } = global
+const { shallowMountLocal } = global
 
 let wrapper
 
 describe('PageNav', () => {
   beforeEach(() => {
-    wrapper = shallowMount(PageNav, {
-      localVue: localVueInst
-    })
+    wrapper = shallowMountLocal(PageNav)
   })
 
   it('is called', () => {

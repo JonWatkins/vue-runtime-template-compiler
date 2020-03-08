@@ -1,14 +1,11 @@
-import { shallowMount } from '@vue/test-utils'
 import Header from './Header.vue'
-const { localVueInst } = global
+const { shallowMountLocal } = global
 
 let wrapper
 
 describe('Header', () => {
   beforeEach(() => {
-    wrapper = shallowMount(Header, {
-      localVue: localVueInst
-    })
+    wrapper = shallowMountLocal(Header)
   })
 
   it('is called', () => {

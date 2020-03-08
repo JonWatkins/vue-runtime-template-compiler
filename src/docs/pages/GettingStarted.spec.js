@@ -1,14 +1,11 @@
-import { shallowMount } from '@vue/test-utils'
 import GettingStarted from './GettingStarted.vue'
-const { localVueInst } = global
+const { shallowMountLocal } = global
 
 let wrapper
 
 describe('GettingStarted', () => {
   beforeEach(() => {
-    wrapper = shallowMount(GettingStarted, {
-      localVue: localVueInst
-    })
+    wrapper = shallowMountLocal(GettingStarted)
   })
 
   it('is called', () => {

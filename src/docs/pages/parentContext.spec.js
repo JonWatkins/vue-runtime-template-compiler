@@ -1,14 +1,11 @@
-import { shallowMount } from '@vue/test-utils'
 import ParentContext from './ParentContext.vue'
-const { localVueInst } = global
+const { shallowMountLocal } = global
 
 let wrapper
 
 describe('ParentContext', () => {
   beforeEach(() => {
-    wrapper = shallowMount(ParentContext, {
-      localVue: localVueInst
-    })
+    wrapper = shallowMountLocal(ParentContext)
   })
 
   it('is called', () => {

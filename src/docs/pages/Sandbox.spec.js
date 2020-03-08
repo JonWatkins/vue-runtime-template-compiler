@@ -1,14 +1,11 @@
-import { shallowMount } from '@vue/test-utils'
 import Sandbox from './Sandbox.vue'
-const { localVueInst } = global
+const { shallowMountLocal } = global
 
 let wrapper
 
 describe('Sandbox', () => {
   beforeEach(() => {
-    wrapper = shallowMount(Sandbox, {
-      localVue: localVueInst
-    })
+    wrapper = shallowMountLocal(Sandbox)
   })
 
   it('is called', () => {

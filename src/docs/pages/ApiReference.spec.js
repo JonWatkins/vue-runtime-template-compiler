@@ -1,14 +1,11 @@
-import { shallowMount } from '@vue/test-utils'
 import ApiReference from './ApiReference.vue'
-const { localVueInst } = global
+const { shallowMountLocal } = global
 
 let wrapper
 
 describe('ApiReference', () => {
   beforeEach(() => {
-    wrapper = shallowMount(ApiReference, {
-      localVue: localVueInst
-    })
+    wrapper = shallowMountLocal(ApiReference)
   })
 
   it('is called', () => {

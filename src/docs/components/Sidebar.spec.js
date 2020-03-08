@@ -1,14 +1,11 @@
-import { shallowMount } from '@vue/test-utils'
 import Sidebar from './Sidebar.vue'
-const { localVueInst } = global
+const { shallowMountLocal } = global
 
 let wrapper
 
 describe('Sidebar', () => {
   beforeEach(() => {
-    wrapper = shallowMount(Sidebar, {
-      localVue: localVueInst
-    })
+    wrapper = shallowMountLocal(Sidebar)
   })
 
   it('is called', () => {

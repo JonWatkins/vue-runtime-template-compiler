@@ -1,14 +1,11 @@
-import { shallowMount } from '@vue/test-utils'
 import Filters from './Filters.vue'
-const { localVueInst } = global
+const { shallowMountLocal } = global
 
 let wrapper
 
 describe('Filters', () => {
   beforeEach(() => {
-    wrapper = shallowMount(Filters, {
-      localVue: localVueInst
-    })
+    wrapper = shallowMountLocal(Filters)
   })
 
   it('is called', () => {
