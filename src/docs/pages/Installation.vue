@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <h1 id="install" class="display-4 mb-3">
+    <h1 id="install" class="mb-3">
       <router-link to="/installation#install" class="header-anchor">
         <span class="header-anchor--hash">#</span>
         Installation

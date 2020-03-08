@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <h1 id="started" class="display-4 mb-3">
+    <h1 id="started" class="mb-3">
       <router-link to="/guide/getting-started#started" class="header-anchor">
         <span class="header-anchor--hash">#</span>
         Getting Started

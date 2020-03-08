@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <h1 id="intro" class="display-4 mb-3">
+    <h1 id="intro" class="mb-3">
       <router-link to="/#intro" class="header-anchor">
         <span class="header-anchor--hash">#</span>
         Introduction

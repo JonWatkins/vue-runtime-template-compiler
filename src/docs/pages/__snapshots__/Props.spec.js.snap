@@ -2,7 +2,7 @@
 
 exports[`Props render correctly 1`] = `
 <div class="page">
-  <h1 id="top" class="display-4 mb-3">
+  <h1 id="top" class="mb-3">
     <router-link-stub to="/guide/props#top" tag="a" event="click" class="header-anchor"><span class="header-anchor--hash">#</span>
       Props
     </router-link-stub>

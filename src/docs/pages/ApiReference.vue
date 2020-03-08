@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <h1 id="api-reference" class="display-4 mb-3">
+    <h1 id="api-reference" class="mb-3">
       <router-link to="/api-reference#api-reference" class="header-anchor">
         <span class="header-anchor--hash">#</span>
         API Reference

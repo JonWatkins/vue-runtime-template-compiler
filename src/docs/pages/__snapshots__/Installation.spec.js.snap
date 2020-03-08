@@ -2,7 +2,7 @@
 
 exports[`Installation render correctly 1`] = `
 <div class="page">
-  <h1 id="install" class="display-4 mb-3">
+  <h1 id="install" class="mb-3">
     <router-link-stub to="/installation#install" tag="a" event="click" class="header-anchor"><span class="header-anchor--hash">#</span>
       Installation
     </router-link-stub>

@@ -2,7 +2,7 @@
 
 exports[`ApiReference render correctly 1`] = `
 <div class="page">
-  <h1 id="api-reference" class="display-4 mb-3">
+  <h1 id="api-reference" class="mb-3">
     <router-link-stub to="/api-reference#api-reference" tag="a" event="click" class="header-anchor"><span class="header-anchor--hash">#</span>
       API Reference
     </router-link-stub>

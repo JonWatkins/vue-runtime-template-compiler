@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <h1 id="top" class="display-4 mb-3">
+    <h1 id="top" class="mb-3">
       <router-link to="/guide/props#top" class="header-anchor">
         <span class="header-anchor--hash">#</span>
         Props

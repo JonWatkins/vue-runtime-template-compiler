@@ -2,7 +2,7 @@
 
 exports[`GettingStarted render correctly 1`] = `
 <div class="page">
-  <h1 id="started" class="display-4 mb-3">
+  <h1 id="started" class="mb-3">
     <router-link-stub to="/guide/getting-started#started" tag="a" event="click" class="header-anchor"><span class="header-anchor--hash">#</span>
       Getting Started
     </router-link-stub>
