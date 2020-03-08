@@ -29,6 +29,7 @@ export default {
 <style lang="scss" rel="stylesheet/scss">
 body {
   font-family: 'Roboto', sans-serif;
+  font-display: swap;
 }
 
 h1,
@@ -38,6 +39,7 @@ h4,
 h5,
 h6 {
   font-family: 'Roboto Slab', serif;
+  font-display: swap;
 }
 
 h1,
