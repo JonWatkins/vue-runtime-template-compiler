@@ -6,7 +6,7 @@
 [![npm](https://img.shields.io/npm/v/vue-runtime-template-compiler.svg)](https://www.npmjs.com/package/vue-runtime-template-compiler)
 [![npm](https://img.shields.io/npm/dm/vue-runtime-template-compiler.svg)](https://www.npmjs.com/package/vue-runtime-template-compiler)
 [![Build Status](https://travis-ci.org/JonWatkins/vue-runtime-template-compiler.svg?branch=master)](https://travis-ci.org/JonWatkins/vue-runtime-template-compiler)
-[![Coverage Status](https://coveralls.io/repos/github/JonWatkins/vue-runtime-template-compiler/badge.svg?branch=master)](https://coveralls.io/github/JonWatkins/vue-runtime-template-compiler?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/JonWatkins/vue-runtime-template-compiler/badge.svg)](https://coveralls.io/github/JonWatkins/vue-runtime-template-compiler)
 [![Maintainability](https://badgen.net/codeclimate/maintainability/JonWatkins/vue-runtime-template-compiler)](https://codeclimate.com/github/JonWatkins/vue-runtime-template-compiler)
 
 > An interactive demo of the compiler can be found over at [CodeSandbox](https://codesandbox.io/embed/vue-runtime-template-compiler-51rld)

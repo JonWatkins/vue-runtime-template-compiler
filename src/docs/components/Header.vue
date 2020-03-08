@@ -21,11 +21,23 @@
           Sandbox
         </router-link>
       </li>
+      <li class="nav-item  mt-1 ml-3">
+        <a
+          href="https://github.com/JonWatkins/vue-runtime-template-compiler/releases"
+          target="_blank"
+          class="external"
+          rel="nofollow"
+        >
+          Release Notes<i class="fas fa-external-link-alt" />
+        </a>
+      </li>
       <li class="nav-item ml-3">
         <a
           href="https://github.com/jonwatkins/vue-runtime-template-compiler"
           target="_blank"
           class="border-bottom-0 icon-hover"
+          rel="nofollow"
+          alt="GitHub"
         >
           <i class="fab fa-github fa-2x"></i>
         </a>
@@ -35,6 +47,8 @@
           href="https://www.npmjs.com/package/vue-runtime-template-compiler"
           target="_blank"
           class="border-bottom-0 icon-hover"
+          rel="nofollow"
+          alt="NPM"
         >
           <i class="fab fa-npm fa-2x"></i>
         </a>
