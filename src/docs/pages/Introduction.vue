@@ -22,6 +22,19 @@
 
     <p class="mb-4">
       <a
+        href="https://github.com/jonwatkins/vue-runtime-template-compiler"
+        rel="nofollow"
+        class="mr-2"
+        target="_blank"
+      >
+        <img
+          alt="GitHub stars"
+          data-canonical-src="https://img.shields.io/github/stars/JonWatkins/vue-runtime-template-compiler?style=social"
+          src="https://img.shields.io/github/stars/JonWatkins/vue-runtime-template-compiler?style=social"
+          style="max-width:100%;"
+        />
+      </a>
+      <a
         href="https://github.com/JonWatkins/vue-runtime-template-compiler/blob/master/LICENCE"
         rel="nofollow"
         class="mr-2"
@@ -29,9 +42,9 @@
       >
         <img
           alt="licence"
-          data-canonical-src="https://badgen.net/github/license/JonWatkins/vue-runtime-template-compiler"
+          data-canonical-src="https://img.shields.io/npm/l/vue-runtime-template-compiler"
+          src="https://img.shields.io/npm/l/vue-runtime-template-compiler"
           style="max-width:100%;"
-          src="https://badgen.net/github/license/jonwatkins/vue-runtime-template-compiler"
         />
       </a>
       <a
@@ -42,9 +55,9 @@
       >
         <img
           alt="npm"
-          data-canonical-src="https://img.shields.io/npm/v/vue-runtime-template-compiler.svg"
+          data-canonical-src="https://img.shields.io/npm/v/vue-runtime-template-compiler"
+          src="https://img.shields.io/npm/v/vue-runtime-template-compiler"
           style="max-width:100%;"
-          src="https://camo.githubusercontent.com/f8da4ea7c4f1e189320be560ef7c3871141bcb96/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f7675652d72756e74696d652d74656d706c6174652d636f6d70696c65722e737667"
         />
       </a>
       <a
@@ -55,9 +68,9 @@
       >
         <img
           alt="npm"
-          data-canonical-src="https://img.shields.io/npm/dm/vue-runtime-template-compiler.svg"
+          data-canonical-src="https://img.shields.io/npm/dt/vue-runtime-template-compiler"
+          src="https://img.shields.io/npm/dt/vue-runtime-template-compiler"
           style="max-width:100%;"
-          src="https://camo.githubusercontent.com/ee1e27ee5f0b44b4b10e20500af04b9acc05f08e/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f646d2f7675652d72756e74696d652d74656d706c6174652d636f6d70696c65722e737667"
         />
       </a>
       <a
@@ -68,9 +81,9 @@
       >
         <img
           alt="Build Status"
-          data-canonical-src="https://travis-ci.org/JonWatkins/vue-runtime-template-compiler.svg?branch=master"
+          data-canonical-src="https://img.shields.io/travis/JonWatkins/vue-runtime-template-compiler"
+          src="https://img.shields.io/travis/JonWatkins/vue-runtime-template-compiler"
           style="max-width:100%;"
-          src="https://camo.githubusercontent.com/cb4fab9739b21dac6748ed5b7da17dcb58b36c61/68747470733a2f2f7472617669732d63692e6f72672f4a6f6e5761746b696e732f7675652d72756e74696d652d74656d706c6174652d636f6d70696c65722e7376673f6272616e63683d6d6173746572"
         />
       </a>
       <a
@@ -80,9 +93,9 @@
         target="_blank"
       >
         <img
-          data-canonical-src="https://coveralls.io/repos/github/JonWatkins/vue-runtime-template-compiler/badge.svg?branch=master"
-          src="https://coveralls.io/repos/github/JonWatkins/vue-runtime-template-compiler/badge.svg?branch=master"
           alt="Coverage Status"
+          data-canonical-src="https://img.shields.io/coveralls/github/JonWatkins/vue-runtime-template-compiler"
+          src="https://img.shields.io/coveralls/github/JonWatkins/vue-runtime-template-compiler"
           style="max-width:100%;"
         />
       </a>
@@ -93,10 +106,10 @@
         target="_blank"
       >
         <img
-          alt="Maintainability"
-          data-canonical-src="https://badgen.net/codeclimate/maintainability/JonWatkins/vue-runtime-template-compiler"
+          alt="Code Climate maintainability"
+          data-canonical-src="https://img.shields.io/codeclimate/maintainability/JonWatkins/vue-runtime-template-compiler"
+          src="https://img.shields.io/codeclimate/maintainability/JonWatkins/vue-runtime-template-compiler"
           style="max-width:100%;"
-          src="https://badgen.net/codeclimate/maintainability/JonWatkins/vue-runtime-template-compiler"
         />
       </a>
     </p>

@@ -2,12 +2,12 @@
 
 ### A [Vue.js](https://vuejs.org/) component for easy compiling and interpreting of HTML templates at runtime.
 
-[![licence](https://badgen.net/github/license/jonwatkins/vue-runtime-template-compiler)](https://github.com/JonWatkins/vue-runtime-template-compiler/blob/master/LICENCE)
-[![npm](https://img.shields.io/npm/v/vue-runtime-template-compiler.svg)](https://www.npmjs.com/package/vue-runtime-template-compiler)
-[![npm](https://img.shields.io/npm/dm/vue-runtime-template-compiler.svg)](https://www.npmjs.com/package/vue-runtime-template-compiler)
-[![Build Status](https://travis-ci.org/JonWatkins/vue-runtime-template-compiler.svg?branch=master)](https://travis-ci.org/JonWatkins/vue-runtime-template-compiler)
-[![Coverage Status](https://coveralls.io/repos/github/JonWatkins/vue-runtime-template-compiler/badge.svg)](https://coveralls.io/github/JonWatkins/vue-runtime-template-compiler)
-[![Maintainability](https://badgen.net/codeclimate/maintainability/JonWatkins/vue-runtime-template-compiler)](https://codeclimate.com/github/JonWatkins/vue-runtime-template-compiler)
+![npm](https://img.shields.io/npm/v/vue-runtime-template-compiler)
+![NPM](https://img.shields.io/npm/l/vue-runtime-template-compiler)
+![npm](https://img.shields.io/npm/dt/vue-runtime-template-compiler)
+![Travis (.org)](https://img.shields.io/travis/JonWatkins/vue-runtime-template-compiler)
+![Coveralls github](https://img.shields.io/coveralls/github/JonWatkins/vue-runtime-template-compiler)
+![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/JonWatkins/vue-runtime-template-compiler)
 
 > An interactive demo of the compiler can be found over at [CodeSandbox](https://codesandbox.io/embed/vue-runtime-template-compiler-51rld)
 
