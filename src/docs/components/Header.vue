@@ -2,58 +2,77 @@
   <header
     class="navbar navbar-expand navbar-light flex-column flex-md-row navbar sticky-top"
   >
-    <router-link to="/" class="navbar-brand ml-1 mr-0 mr-md-2">
+    <router-link to="/" class="navbar-brand ml-1 mr-0 mr-md-2 ">
       VueRuntimeTemplateCompiler
     </router-link>
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item mt-1">
-        <router-link to="/guide/getting-started">
-          Guide
-        </router-link>
-      </li>
-      <li class="nav-item  mt-1 ml-3">
-        <router-link to="/api-reference">
-          API Reference
-        </router-link>
-      </li>
-      <li class="nav-item  mt-1 ml-3">
-        <router-link to="/sandbox">
-          Sandbox
-        </router-link>
-      </li>
-      <li class="nav-item  mt-1 ml-3">
-        <a
-          href="https://github.com/JonWatkins/vue-runtime-template-compiler/releases"
-          target="_blank"
-          class="external"
-          rel="nofollow"
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item mt-1">
+          <router-link to="/guide/getting-started">
+            Guide
+          </router-link>
+        </li>
+        <li class="nav-item  mt-1 ml-3">
+          <router-link to="/api-reference">
+            API Reference
+          </router-link>
+        </li>
+        <li class="nav-item  mt-1 ml-3">
+          <router-link to="/sandbox">
+            Sandbox
+          </router-link>
+        </li>
+        <li class="nav-item  mt-1 ml-3">
+          <a
+            href="https://github.com/JonWatkins/vue-runtime-template-compiler/releases"
+            target="_blank"
+            class="external"
+            rel="nofollow"
+          >
+            Release Notes<i class="fas fa-external-link-alt" />
+          </a>
+        </li>
+        <li
+          class="nav-item text-muted ml-3 d-none d-sm-block d-sm-none d-md-block"
         >
-          Release Notes<i class="fas fa-external-link-alt" />
-        </a>
-      </li>
-      <li class="nav-item ml-3">
-        <a
-          href="https://github.com/jonwatkins/vue-runtime-template-compiler"
-          target="_blank"
-          class="border-bottom-0 icon-hover"
-          rel="nofollow"
-          alt="GitHub"
+          <a
+            href="https://github.com/jonwatkins/vue-runtime-template-compiler"
+            target="_blank"
+            class="border-bottom-0 icon-hover"
+            rel="nofollow"
+            alt="GitHub"
+          >
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+        </li>
+        <li
+          class="nav-item text-muted ml-3 d-none d-sm-block d-sm-none d-md-block"
         >
-          <i class="fab fa-github fa-2x"></i>
-        </a>
-      </li>
-      <li class="nav-item text-muted ml-3">
-        <a
-          href="https://www.npmjs.com/package/vue-runtime-template-compiler"
-          target="_blank"
-          class="border-bottom-0 icon-hover"
-          rel="nofollow"
-          alt="NPM"
-        >
-          <i class="fab fa-npm fa-2x"></i>
-        </a>
-      </li>
-    </ul>
+          <a
+            href="https://www.npmjs.com/package/vue-runtime-template-compiler"
+            target="_blank"
+            class="border-bottom-0 icon-hover"
+            rel="nofollow"
+            alt="NPM"
+          >
+            <i class="fab fa-npm fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
   </header>
 </template>
 

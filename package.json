@@ -29,7 +29,8 @@
   "homepage": "https://jonwatkins.github.io/vue-runtime-template-compiler/",
   "files": [
     "dist",
-    "LICENCE"
+    "LICENCE",
+    "README"
   ],
   "keywords": [
     "vuejs",
