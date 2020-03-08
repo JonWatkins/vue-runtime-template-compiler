@@ -58,7 +58,7 @@ Vue.use(RuntimeTemplateCompiler)
 
 ## Getting Started
 
-To use the `Vue Runtime Template Compiler` plugin you just need to import the `vue-runtime-template-compiler` component and pass in the template that you want to use. You may either use it as a plugin, or you can use the component directly. Either way you decide to install it the usage of the component will be the same.
+To use the `Vue Runtime Template Compiler` plugin you just need to import the `runtime-template-compiler` component and pass in the template that you want to use. You may either use it as a plugin, or you can use the component directly. Either way you decide to install it the usage of the component will be the same.
 
 Note: When using [Webpack](https://webpack.js.org/) you can use code splitting so that you do not load the runtime compiler in to your whole application.
 
@@ -144,7 +144,7 @@ export default {
 
 ### Methods
 
-As with the `data` object the `methods` are also available in the `vue-runtime-template-compiler`. You just use them as if you are writing bindings in the parent's compiled template.
+As with the `data` object the `methods` are also available in the `runtime-template-compiler`. You just use them as if you are writing bindings in the parent's compiled template.
 
 Note: These will behave as if they have been called from within the parent component.
 
@@ -175,7 +175,7 @@ export default {
 
 ### Computed
 
-Just like the `methods` the `computed` properties are available in the `vue-runtime-template-compiler`. The same as the other parent property you use them as if you are writing bindings in the parent's compiled template.
+Just like the `methods` the `computed` properties are available in the `runtime-template-compiler`. The same as the other parent property you use them as if you are writing bindings in the parent's compiled template.
 
 ```html
 <template>
@@ -204,7 +204,7 @@ export default {
 
 ### Props
 
-Just like the `computed` the `props` properties are available in the `vue-runtime-template-compiler`. The same as the other parent property you use them as if you are writing bindings in the parent's compiled template.
+Just like the `computed` the `props` properties are available in the `runtime-template-compiler`. The same as the other parent property you use them as if you are writing bindings in the parent's compiled template.
 
 ```html
 <template>
@@ -242,7 +242,7 @@ export default {
 
 ### Filters
 
-Just like the `props` the `filters` are available in the `vue-runtime-template-compiler`. The same as the other parent property you use them as if you are writing bindings in the parent's compiled template.
+Just like the `props` the `filters` are available in the `runtime-template-compiler`. The same as the other parent property you use them as if you are writing bindings in the parent's compiled template.
 
 ```html
 <template>
@@ -279,7 +279,7 @@ export default {
 
 ### Filters
 
-Just like the `props` the `provide` properties are available in the `vue-runtime-template-compiler`. The same as the other parent property you use them as if you are writing bindings in the parent's compiled template.
+Just like the `props` the `provide` properties are available in the `runtime-template-compiler`. The same as the other parent property you use them as if you are writing bindings in the parent's compiled template.
 
 ```html
 <template>
