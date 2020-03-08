@@ -24,9 +24,9 @@ exports[`Introduction render correctly 1`] = `
     the <code>v-html</code> directive.
   </p>
   <p>
-    The <code>Vue Runtime Template Compiler</code> makes it easy to get a
-    template string either from a local variable or from a remote source, and
-    then compile and render it as a component using scope of the parent.
+    The <code>Runtime Template Compiler</code> makes it easy to get a template
+    string either from a local variable or from a remote source, and then
+    compile and render it as a component using scope of the parent.
   </p>
   <p>
     You do not need to use the use the <code>with-compiler</code> version of

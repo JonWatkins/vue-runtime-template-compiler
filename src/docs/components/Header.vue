@@ -3,7 +3,7 @@
     class="navbar navbar-expand navbar-light flex-column flex-md-row navbar sticky-top"
   >
     <router-link to="/" class="navbar-brand ml-1 mr-0 mr-md-2 ">
-      VueRuntimeTemplateCompiler
+      RuntimeTemplateCompiler
     </router-link>
 
     <button

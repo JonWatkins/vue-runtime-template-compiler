@@ -1,4 +1,4 @@
-# Vue Runtime Template Compiler
+# Runtime Template Compiler
 
 ### A [Vue.js](https://vuejs.org/) component for easy compiling and interpreting of HTML templates at runtime.
 

@@ -19,11 +19,11 @@
       to your whole application.
     </div>
     <p>
-      To use the <code>Vue Runtime Template Compiler</code> plugin you just need
-      to import the <code>vue-runtime-template-compiler</code> component and
-      pass in the template that you want to use. You may either use it as a
-      plugin, or you can use the component directly. Either way you decide to
-      install it the usage of the component will be the same.
+      To use the <code>Runtime Template Compiler</code> plugin you just need to
+      import the <code>runtime-template-compiler</code> component and pass in
+      the template that you want to use. You may either use it as a plugin, or
+      you can use the component directly. Either way you decide to install it
+      the usage of the component will be the same.
     </p>
     <h2 id="plugin" class="mb-4">
       <router-link to="/guide/getting-started#plugin" class="header-anchor">

@@ -9,7 +9,7 @@
 
     <p>
       Just like the <code>provide</code> the <code>filters</code> are available
-      in the <code>vue-runtime-template-compiler</code>. The same as the other
+      in the <code>runtime-template-compiler</code>. The same as the other
       parent property you use them as if you are writing bindings in the
       parent's compiled template.
     </p>

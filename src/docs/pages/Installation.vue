@@ -31,7 +31,7 @@
     </p>
 
     <p>
-      Include <code>Vue Runtime Template Compiler</code> after
+      Include <code>Runtime Template Compiler</code> after
       <a
         href="https://vuejs.org/"
         target="_blank"

@@ -13,8 +13,8 @@ exports[`Methods render correctly 1`] = `
   </div>
   <p>
     As with the <code>data</code> object the methods are also available in the
-    <code>vue-runtime-template-compiler</code>. You just use them as if you
-    are writing bindings in the parent's compiled template.
+    <code>runtime-template-compiler</code>. You just use them as if you are
+    writing bindings in the parent's compiled template.
   </p> <pre class="language-html mb-4"><code>&lt;template&gt;
   &lt;runtime-template-compiler :template="template" /&gt;
 &lt;/template&gt;

@@ -79,7 +79,7 @@ h3 {
 h1 {
   .header-anchor {
     &--hash {
-      left: -35px;
+      left: -30px;
     }
   }
 }

@@ -21,7 +21,7 @@ exports[`Installation render correctly 1`] = `
     like <code>https://unpkg.com/vue-runtime-template-compiler@1.1.0/dist/vue-runtime-template-compiler.umd.js</code>.
   </p>
   <p>
-    Include <code>Vue Runtime Template Compiler</code> after
+    Include <code>Runtime Template Compiler</code> after
     <a href="https://vuejs.org/" target="_blank" rel="nofollow" class="external">Vue.js<i class="fas fa-external-link-alt"></i></a>
     and it will install itself automatically:
   </p> <pre class="language-js mb-4"><code>&lt;script src="https://unpkg.com/vue@2.6.11/dist/vue.js"&gt;&lt;/script&gt;

@@ -9,9 +9,9 @@ exports[`Computed render correctly 1`] = `
   </h1>
   <p>
     Just like the <code>methods</code> the <code>computed</code> properties
-    are available in the <code>vue-runtime-template-compiler</code>. The same
-    as the other parent property you use them as if you are writing bindings
-    in the parent's compiled template.
+    are available in the <code>runtime-template-compiler</code>. The same as
+    the other parent property you use them as if you are writing bindings in
+    the parent's compiled template.
   </p> <pre class="language-html mb-4"><code>&lt;template&gt;
   &lt;runtime-template-compiler :template="template" /&gt;
 &lt;/template&gt;

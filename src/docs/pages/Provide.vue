@@ -9,9 +9,9 @@
 
     <p>
       Just like the <code>props</code> the <code>provide</code> properties are
-      available in the <code>vue-runtime-template-compiler</code>. The same as
-      the other parent property you use them as if you are writing bindings in
-      the parent's compiled template.
+      available in the <code>runtime-template-compiler</code>. The same as the
+      other parent property you use them as if you are writing bindings in the
+      parent's compiled template.
     </p>
 
     <pre class="language-html mb-4"><code>{{ example | trim }}</code></pre>
