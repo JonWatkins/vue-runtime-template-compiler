@@ -11,6 +11,7 @@ module.exports = merge(baseConfig, {
     libraryTarget: 'umd',
     umdNamedDefine: true,
     publicPath: '/dist/',
-    filename: 'vue-runtime-template-compiler.umd.js'
+    filename: 'vue-runtime-template-compiler.umd.js',
+    globalObject: 'this'
   }
 })
