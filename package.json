@@ -47,7 +47,7 @@
     "@babel/plugin-proposal-export-default-from": "^7.8.3",
     "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
     "@babel/plugin-transform-runtime": "^7.8.3",
-    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-env": "^7.9",
     "@purtuga/esm-webpack-plugin": "^1.2.1",
     "@vue/test-utils": "^1.0.0-beta.31",
     "babel-core": "^7.0.0-bridge.0",
