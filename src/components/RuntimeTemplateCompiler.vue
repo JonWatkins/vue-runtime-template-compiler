@@ -99,7 +99,7 @@ export default {
   methods: {
     compile() {
       const component = compileToFunctions(this.template, this.compilerOptions)
-      this.compiled = merge(component, this.componentProps)
+      this.compiled = merge(component, this.componentProps, true)
     }
   }
 }
