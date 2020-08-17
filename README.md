@@ -277,7 +277,7 @@ export default {
 </script>
 ```
 
-### Filters
+### Provide
 
 Just like the `props` the `provide` properties are available in the `runtime-template-compiler`. The same as the other parent property you use them as if you are writing bindings in the parent's compiled template.
 
