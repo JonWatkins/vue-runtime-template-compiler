@@ -1,3 +1,7 @@
+## DEPRECATION WARNING
+
+This repository is considered deprecated and will be archived.
+
 # Runtime Template Compiler
 
 ### A [Vue.js](https://vuejs.org/) component for easy compiling and interpreting of HTML templates at runtime.
